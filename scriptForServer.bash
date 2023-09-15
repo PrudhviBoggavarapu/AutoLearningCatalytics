@@ -10,4 +10,5 @@ done&
 while true 
 do 
 python3 main.py
+echo "TRYING AGAIN \n\n"
 done
