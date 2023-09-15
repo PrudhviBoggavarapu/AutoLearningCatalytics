@@ -34,6 +34,7 @@ def wait_for_class_join():
         if bool(join_button):
             join_button.click()
             break
+        driver.refresh()
         sleep(2)
 
 
