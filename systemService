@@ -1,0 +1,13 @@
+[Unit]
+Description=AutoLearning
+
+[Service]
+WorkingDirectory=/home/karma/gitstuff/AutoLearningCatalytics
+ExecStart=python3 /home/karma/gitstuff/AutoLearningCatalytics/main.py
+
+Restart=always
+RestartSec=10
+
+
+[Install]
+WantedBy=multi-user.target
